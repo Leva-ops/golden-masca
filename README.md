@@ -28,7 +28,7 @@ The website is designed to be simple, professional, and user-friendly.
 
 ### **1. View the Website**
 The website is hosted on GitHub Pages and can be accessed here:  
-👉 [Live Demo](https://<username>.github.io/golden-masca)
+👉 [Live Demo](https://Leva-ops.github.io/golden-masca)
 
 Replace `<username>` with your GitHub username.
 
@@ -37,4 +37,4 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/<username>/golden-masca.git
+   git clone https://github.com/Leva-ops/golden-masca.git
