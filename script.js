@@ -29,7 +29,7 @@ if (contactForm) {
       return;
     }
 
-    // Simulate form submission (replace with actual submission logic)
+    // Simulate form submission
     alert('Thank you for contacting us! We will get back to you soon.');
     contactForm.reset();
   });
