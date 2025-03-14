@@ -138,3 +138,39 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+/* Mobile Menu Toggle */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  header nav ul {
+    display: none;
+    flex-direction: column;
+    background: #003366;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  header nav ul.active {
+    display: flex;
+  }
+
+  header nav ul li {
+    text-align: center;
+    margin: 10px 0;
+  }
+}
